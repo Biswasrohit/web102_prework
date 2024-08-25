@@ -72,6 +72,22 @@ body {
     text-align: center;
 }
 
+#search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#search-input {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+#search-btn {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
 button {
     font-family: 'Cabin';
     border: none;

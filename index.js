@@ -190,3 +190,36 @@ firstGameContainer.appendChild(firstGameElement);
 const secondGameElement = document.createElement("p");
 secondGameElement.innerHTML = secondGame.name;
 secondGameContainer.appendChild(secondGameElement);
+
+/************************************************************************************
+ * Customization: Search
+ */
+
+const searchInput = document.getElementById("search-input");
+const searchBtn = document.getElementById("search-btn");
+
+function searchGame() {
+    const query = searchInput.value.toLowerCase();
+
+    deleteChildElements(gamesContainer);
+
+    const filteredGames = GAMES_JSON.filter(game => game.name.toLowerCase().includes(query));
+
+    if (filteredGames.length === 0) {
+        const noResultsElement = document.createElement("p");
+        noResultsElement.innerHTML = "No games found. Please try another search.";
+        gamesContainer.appendChild(noResultsElement);
+    } else {
+        addGamesToPage(filteredGames);
+    }
+
+    // Clear the search input
+    searchInput.value = '';
+}
+
+searchBtn.addEventListener('click', searchGame);
+searchInput.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        searchGame();
+    }
+});
