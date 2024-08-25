@@ -1,10 +1,10 @@
-# WEB102 Prework - *Name of App Here*
+# WEB102 Prework - **seaMonsterCrowdfunduing.org**
 
-Submitted by: **Your Name Here**
+Submitted by: **Rohit Biswas**
 
-**Name of your app** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**seaMonsterCrowdfunduing.org** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
-Time spent: **X** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Required Features
 
@@ -17,13 +17,13 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [ ] Search bar to find your favorite game!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/gGMwo8k' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  
@@ -34,11 +34,21 @@ GIF created with ...
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+1. **UI/UX Design:**
+   - Creating a responsive and intuitive user interface was a significant challenge. Ensuring the app looks and functions well across various devices and screen sizes required careful design and testing.
+
+2. **State Management:**
+   - Managing the application's state, especially when dealing with dynamic content and asynchronous data fetching, proved to be complex. Maintaining a consistent and accurate state across different components was critical to the app's functionality.
+
+3. **Backend Integration:**
+   - Integrating the app with the backend API required careful handling of data communication and error management. Ensuring that API requests were efficient and secure was a key focus during development.
+
+4. **Debugging and Testing:**
+   - Debugging issues and writing comprehensive tests to cover edge cases were ongoing tasks. Ensuring that the app works consistently across different environments, browsers, and devices required a thorough testing strategy.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2024 Rohit Biswas
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
