@@ -1,8 +1,8 @@
-# WEB102 Prework - **seaMonsterCrowdfunduing.org**
+# WEB102 Prework - **seaMonsterCrowdfunding.org**
 
 Submitted by: **Rohit Biswas**
 
-**seaMonsterCrowdfunduing.org** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
+**seaMonsterCrowdfunding.org** is a website for the company Sea Monster Crowdfunding that displays information about the games they have funded.
 
 Time spent: **12** hours spent in total
 
